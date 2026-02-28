@@ -1,6 +1,6 @@
 Flask
 opencv-python-headless
-numpy
+numpy==1.26.4
 
 # CPU-only PyTorch (IMPORTANT)
 torch==2.2.2+cpu
