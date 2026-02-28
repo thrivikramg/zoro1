@@ -1,4 +1,11 @@
 Flask
 opencv-python-headless
-ultralytics
 numpy
+
+# CPU-only PyTorch (IMPORTANT)
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Install ultralytics AFTER torch
+ultralytics
